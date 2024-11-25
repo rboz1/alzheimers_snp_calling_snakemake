@@ -1,4 +1,6 @@
 # imports
+import matplotlib.pyplot as plt
+import pandas as pd
 import re
 
 # global variables
@@ -240,8 +242,6 @@ rule barplot:
         grep '^PSC' {output.stats} | awk '{{split($3, arr, "/"); split(arr[2], sample, "."); print sample[1], $5+$6}}' > {output.snp_counts}
         
         python -c "
-import pandas as pd
-import matplotlib.pyplot as plt
 
 df = pd.read_csv('barplot_stats/snp_counts.txt', sep=' ', header=None, names=['Sample_ID', 'SNP_Counts'])
 
