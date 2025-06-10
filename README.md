@@ -52,7 +52,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
-![snek](https://github.com/rboz1/snp_calling_workflow/assets/63253421/25c7f821-05cf-4b7e-9d66-4b6b32fd686c)
+* Snakemake
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,7 +69,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/rboz1/snp_calling_workflow.git
+   git clone https://github.com/rboz1/alzheimers_snp_calling_snakemake.git
    
 2. Run the script 
    ```
